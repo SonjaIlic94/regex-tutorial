@@ -5,6 +5,7 @@ Introductory paragraph (replace this with your text)
 ## Summary
 
 Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Regex example for emails: ^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$
 
 ## Table of Contents
 
@@ -23,6 +24,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Say that you're looking to decide where the beginning and end of your email is. You might want something to indicate the beginning of the email and the end of the email so that multiple emails written in a row could still be identified. Using our example ^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$ we can see the symbol ^ at the front to indicate the beginning and a $ at the end to signify the end of the email!
 
 ### Quantifiers
 
@@ -33,6 +35,7 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ### Flags
 
 ### Grouping and Capturing
+Grouping is a tool that will allow you to "group" multiple pieces together. This is described in regex with brackets around other components. ()
 
 ### Bracket Expressions
 

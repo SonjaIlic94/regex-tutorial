@@ -1,4 +1,4 @@
-# Regex Tutorial Starter Code# Title (replace with your title)
+# Regex Tutorial - Email Example
 
 Let's talk REGEX! What's a regex you might ask? Regex is a straightforward toolbox that helps developers save oodles of time, particularly when it comes to validation. Like any toolbox, we need to understand the parts within it. This regex tutorial will go over a few key concepts to help you get started.
 
